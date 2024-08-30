@@ -2,25 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #23355a;
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 1.5rem;
   color: white;
 }
 
@@ -28,11 +18,64 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.logo {
+  height: 5vh;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top:0;
+  margin-bottom:0
+}
+
+.App-main {
+  background-color: #23355ac7;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  
+}
+
+.Card {
+  background-color: #23355a14;
+  color: white;
+  font-size: larger;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.List {
+  background-color: #23355a14;
+  color: white;
+  font-size: medium;
+  border-color: transparent;
+}
+
+
+.bi-cloud-sun {
+  margin-left: 10px;
+}
+
+.row .col-md-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Jumbo{
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.textCard {
+  font-size: large;
+  margin-top: 20px;
+  text-transform: capitalize;
+  text-shadow: #23355a 3px 0 20px;
 }
